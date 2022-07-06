@@ -1,3 +1,40 @@
 body {
-    background-color: brown
+    background-color: rgb(141, 186, 238)
 }
+div{
+    background-color: bisque;
+    width: 500px;
+    height: 500px;
+}
+div p {
+    color: red;
+    font-size: large;
+
+    }
+
+    .mainBox
+    {
+        width: 100%;
+        height: auto;
+        background: aquamarine;
+    }
+
+    .box {
+        width: 400;
+        height: 200;
+    }
+    .boxred {
+        background-color: red;
+    }
+    .boxgreen {
+        background-color: green;
+    }
+    .boxblue {
+        background-color: blue;
+    }
+    .body_selectors {
+        background-color: white;
+    }
+    .reg_align {
+        align-items: stretch;
+    }
