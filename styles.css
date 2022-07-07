@@ -4,8 +4,13 @@
 .body_selectors{
     background-color: white;
 }
-.mainBox{
-    background: red;
+#mainBox{
+    background: rgb(184, 163, 163);
+    width: 50%;
+}
+.box{
+    width: 200px;
+    height: 200px;
 }
 .boxred{
     background-color: red;
@@ -15,4 +20,15 @@
 }
 .boxblue{
     background-color: blue;
+}
+input[type="text"], input[type='submit']{
+    height: 50px;
+}
+p[data-text='red']{
+    color: red;
+    font-size: large;
+}
+p[data-text='green']{
+    color: green;
+    font-size: xx-large;
 }
